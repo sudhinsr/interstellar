@@ -1,0 +1,595 @@
+                                                                                                                                <!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="shortcut icon" href=".\favicon.ico" type="image/x-icon" />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="">
+        <title>Team</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+<!--
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet">
+-->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/theme-elements.css">
+        <link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet'>
+
+        <!-- Custom styles for this template -->
+        <style>body{padding-top:50px;}.starter-template{padding:40px 15px;text-align:center;}
+        </style>
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div class="navbody">    
+       <div class="container">   
+        <nav class="navbar navbar-inverse navbar-fixed" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                   
+                       
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    
+                    <a class="navbar-brand" href="/index.php">Interstellar</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav pull-right" style="">
+                        <li><a href="question.php">Play</a></li>
+                        <li><a href="leaderboard.php">Leaderboard</a></li>
+                        <li><a href="rules.html">Rules and regulations</a></li>
+                        <li class="active"><a href="about.html">Team</a></li>
+                        <li><a href="logout.php">Logout</a></li>
+                     
+                      </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+          
+        </div> 
+        <div class="container">
+            <div class="starter-template">
+                
+<style>
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+/*    margin-top: 100;*/
+    padding: 0;
+/*    list-style: none;*/
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+#navlist li, #navlist a {
+    height: 150px;
+    display: block;
+}
+
+        
+#large{
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+    opacity: 0;
+  -webkit-transition: opacity 0.3s ease-out;  
+     -moz-transition: opacity 0.3s ease-out;  
+      -ms-transition: opacity 0.3s ease-out;  
+       -o-transition: opacity 0.3s ease-out;  
+          transition: opacity 0.5s ease-out, height 1s, width 1s, linear 1s;  
+/*position:absolute; see support section for more info on positioning    */
+/*left: -91000px; moves the span off the page, effectively hidding it from view*/
+}
+#gta {
+    position: static;
+    z-index: 3;
+    opacity: 1;
+    border: solid;
+    border-color: #5e0c7c;
+    box-shadow: 0px 0px 30px #272627;
+    transition: 3s;
+}
+
+#jis {    
+    left: 0px;
+    width: 250px;  
+    transition: 0.5s;
+/*    background: url("i/belt.png");*/
+}
+
+#alv {
+    left: 251px;
+    width: 250px;
+    transition: 0.5s;
+/*    background: url("i/normandy.png");*/
+
+}
+
+#akh {
+    left: 501px;
+    width: 180px;
+/*    background: url("i/belt.png");*/
+
+}
+
+ #sud {
+/*    margin-top: 100px;*/
+    left: 702px;
+    width: 250px;
+     height: 90px;
+/*    background: url("i/gta.jpg") -20 0;*/
+/*    background: url("i/normandy.png");*/
+
+}   
+    
+/*new img vals*/
+    
+
+    
+    
+    #far {
+    margin-top: 180px;    
+    left: 0px;
+    width: 250px;  
+    transition: 0.5s;
+/*    background: url("i/normandy.png");*/
+}
+    
+     #atu {
+    left: 702px;
+    width: 250px;
+    margin-top: 190px;
+/*    background: url("i/belt.png");*/
+
+} 
+
+#mat {
+    margin-top: 350px;    
+    left: 0px;
+    width: 160px;  
+    transition: 0.5s;
+/*    background: url("i/belt.png");*/
+
+}
+#pra {
+    margin-top: 350px;    
+    left: 161px;
+    width: 160px;  
+    transition: 0.5s;
+/*    background: url("i/normandy.png");*/
+
+}
+#xav {
+    left: 602px;
+    width: 340px;
+    margin-top: 350px;
+/*    background: url("i/normandy.png");*/
+}
+
+ #suc {    
+    margin-top: 400px; 
+    left: 311px;
+    width: 280px;  
+    transition: 0.5s;
+/*    background: url("i/normandy.png");*/
+}
+
+#msx1 {
+     margin-top: 520px;    
+    left: 0px;
+    width: 210px;  
+    transition: 0.5s;
+/*    background: url("i/belt.png");*/
+
+}
+
+#msx2 {
+    margin-top: 520px;
+   left: 221px;
+    width: 211px;
+    transition: 0.5s;
+/*    background: url("i/normandy.png");*/
+
+}
+
+ #mrx1 {
+    margin-top: 500px;
+    left: 602px;
+    width: 180px;
+     height: 90px;
+/*    background: url("i/belt.png");*/
+
+}   
+    
+    #ley {
+    margin-top: 500px;
+    left: 782px;
+    width: 180px;
+     height: 90px;
+/*    background: url("i/gta.jpg") -20 0;*/
+/*    background: url("i/normandy.png");*/
+
+}   
+    
+    
+    
+    
+    
+    /*    end img vals*/
+    
+  
+    
+#jis:hover {
+/*
+    width: 200px;
+    height: 200px;
+*/
+/*    background: url("i/blurgta.jpg");*/
+}
+
+#alv:hover {
+/*    margin-left: -300px;*/
+/*
+    width: 960px;
+    height: 720px;
+*/
+/*    background: rgba(229, 226, 226, 0.55);*/
+}
+
+#akh a:hover {
+/*
+ width: 960px;
+    height: 720px;
+*/
+/*    background: url("i/blurgta.jpg");*/
+}
+#sud a:hover{
+/*
+ width: 960px;
+    height: 720px;
+*/
+/*    background: url("i/blurgta.jpg");*/
+/*    z-index: 50;*/
+}
+  #jis:hover #large{  
+    position:absolute;
+    z-index: 3;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px 5px black;
+    width: 300px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 300px;    opacity: 1;
+    /*top: -300px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+/*left: -20px;*/
+    }
+    #jis:hover #gta{
+    position: static;
+    z-index: 1;
+    -webkit-filter: blur(5px);
+/*    opacity: .25;*/
+    }
+    
+    #alv:hover #gta{
+    position: static;
+    z-index: 1;
+    opacity: .25;
+    }
+    
+    #alv:hover #large{
+    position: relative;
+    z-index: 3;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px 5px black;
+    width: 300px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 130px;    opacity: 1
+    }
+    
+    #akh:hover #large{
+    position: absolute;
+    z-index: 3;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px 5px black;
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: -130px;
+    opacity: 1
+    }
+    
+    #sud:hover #large{
+    position: absolute;
+    z-index: 3;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px 5px black;
+    width: 300px;
+    height: 300px;
+    margin-left: -500px;
+    opacity: 1
+    }
+    #far:hover #large{
+    position: absolute;
+    z-index: 3;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px 5px black;
+    width: 300px;
+    height: 300px;
+    margin-top: -170px;
+    margin-left: 330px;
+    opacity: 1
+    }
+    #atu:hover #large{
+    position: absolute;
+    z-index: 3;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px 5px black;
+    width: 300px;
+    height: 300px;
+    margin-top: -170px;
+    margin-left: -400px;
+    opacity: 1
+    }
+    #mat:hover #large{
+    position: absolute;
+    z-index: 3;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px 5px black;
+    width: 300px;
+    height: 300px;
+     margin-top: -320px;
+    margin-left: 300px;    
+    opacity: 1
+    }
+    #pra:hover #large{
+    position: absolute;
+    z-index: 3;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px 5px black;
+    width: 300px;
+    height: 300px;
+    margin-top: -320px;
+    margin-left: 200px;    opacity: 1
+    }
+    #xav:hover #large{
+    position: absolute;
+    z-index: 3;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px 5px black;
+    width: 300px;
+    height: 300px;
+    margin-top: -320px;
+    margin-left: -230px;
+    opacity: 1
+    }
+    #msx1:hover #large{
+    position: absolute;
+    z-index: 3;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px 5px black;
+    width: 300px;
+    height: 300px;
+    margin-top: -500px;
+    margin-left: 300px;
+    opacity: 1
+    }
+    
+    #msx2:hover #large{
+    position: absolute;
+    z-index: 3;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px 5px black;
+    width: 300px;
+    height: 300px;
+    margin-top: -500px;
+    margin-left: 150px;    opacity: 1
+    }
+    #suc:hover #large{
+    position: absolute;
+    z-index: 3;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px 5px black;
+    width: 300px;
+    height: 300px;
+    margin-top: -400px;
+    margin-left: 0px;
+    opacity: 1
+    }
+    #mrx1:hover #large{
+    position: absolute;
+    z-index: 3;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px 5px black;
+    width: 300px;
+    height: 300px;
+    margin-top: -500px;
+    margin-left: -240px;
+    opacity: 1
+    }
+    #ley:hover #large{
+    position: absolute;
+    z-index: 3;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px 5px black;
+    width: 300px;
+    height: 300px;
+    margin-top: -500px;
+    margin-left: -400px;
+    opacity: 1
+    }
+    </style>
+                
+                
+<ul id="navlist" style="margin-top:100px; margin-left:70px;">
+ <img id="gta" src="i/gta2.jpg" style="margin-left:-100px;">          
+
+  <li id="jis"><span id=""> <!--span contains the popup image-->
+    <img id="large" src="i/jishnu.png" alt="Profile_pic" /> <!--popup image--></span>
+  </li>
+  <li id="alv"><img id="large" src="i/alwin.png" alt="Profile_pic" /> <!--popup image--></li>  
+  <li id="far"><a href="css_syntax.asp"></a><img id="large" src="i/farize.png" alt="Profile_pic" /></li>
+  <li id="atu"><a href="css_syntax.asp"></a><img id="large" src="i/athul.png" alt="Profile_pic" /></li>
+  <li id="akh"><a href="css_syntax.asp"></a><img id="large" src="i/akhil.png" alt="Profile_pic" /></li>
+  <li id="sud"><a href="css_syntax.asp"></a><img id="large" src="i/sudhin.png" alt="Profile_pic" /></li>
+  <li id="mat"><a href="css_syntax.asp"></a><img id="large" src="i/mathew.png" alt="Profile_pic" /></li>
+  <li id="pra"><a href="css_syntax.asp"></a><img id="large" src="i/praveen.png" alt="Profile_pic" /></li>
+  <li id="xav"><a href="css_syntax.asp"></a><img id="large" src="i/xavier.png" alt="Profile_pic" /></li>
+  <li id="suc"><a href="css_syntax.asp"></a><img id="large" src="i/sachu.png" alt="Profile_pic" /></li>
+  <li id="msx1"><a href="css_syntax.asp"></a><img id="large" src="i/meera.png" alt="Profile_pic" /></li>
+  <li id="mrx1"><a href="css_syntax.asp"></a><img id="large" src="i/nidin.png" alt="Profile_pic" /></li>
+  <li id="msx2"><a href="css_syntax.asp"></a><img id="large" src="i/ansu.png" alt="Profile_pic" /></li>
+  <li id="ley"><a href="css_syntax.asp"></a><img id="large" src="i/leroy.png" alt="Profile_pic" /></li>
+  
+</ul>  
+<!--<img id="gta" src="i/gta.jpg" style="margin-left:-146px; margin-top:-10px;">          -->
+                
+                
+            </div>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- compiled and minified Bootstrap JavaScript -->
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </body>
+
+
+
+
+
+
+
+
+
+
+ <footer>
+				<div class="container">
+						<div class="footer-ribon">
+				        <span>Contact</span>
+						</div>
+                </div>
+            <div class="footed">
+              <div class="logo1">
+             <!--     <p style="font-size:24px;color:white; font-family:Electrolize;">SITES</p>
+                  <p style="font-size:18px;color:white; font-family:Electrolize;"><a href="http://cecsummit.org">SUMMIT</a></p> -->
+                  <img src="./i/simmit.png" >
+                </div>
+                    <div class="footdiv1">
+                    <p>
+                        </p>
+                       <p style="font-size:24px;color:white; font-family:Electrolize;"> Contact Us</p>
+                        <ul>
+                            
+  <li ><p style="font-size:14px; color:white; font-family:Electrolize;"><i class="glyphicon-map-marker" style="font-size:25px"></i><strong style="font-size:16px;color:white; font-family:Electrolize"> Address:</strong >College of Engineering ,Chengannur</p>
+                            </li>
+                            <li class="phone"><i class="glyphicon-envelope" style="font-size:25px;color:white;"></i><strong style="font-size:16px;color:white; font-family:Electrolize">  Email:</strong><a href="www.google.com" style="font-size:16px; font-family:Electrolize">interstellar2k14@gmail.com</a></li>
+                        </ul>
+                       
+                        </div>
+                    <div class="social1">
+                        <p>
+                        </p>
+                        <h4 style="font-size:24px; font-family:Electrolize;">Follow Us</h4>
+                        <div class="swrap">
+                            <a target="_blank" href="https://www.facebook.com/Interstellar2k14?ref=hl">
+                    <div class="fb">
+                   </div>    </a> 
+                   <a target="_blank" href="https://twitter.com/interonlinecec">
+                        <div class="twit">
+                        </div></a>
+                              <a target="_blank" href="https://plus.google.com/u/0/114835822116894615230">
+                        <div class="gplus">
+                        </div></a>
+                        <div class="youtub">
+                        </div>
+                            </div>
+                    </div>
+               </div>
+						
+                
+			</footer>
+		                                              
+       
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+                <!-- compiled and minified Bootstrap JavaScript -->
+            <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+                            
+                            
+                            
+                            
